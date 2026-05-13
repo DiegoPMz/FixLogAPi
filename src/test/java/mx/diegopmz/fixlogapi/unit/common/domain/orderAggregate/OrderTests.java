@@ -1,6 +1,9 @@
-package mx.diegopmz.fixlogapi.common.domain.orderAggregate;
+package mx.diegopmz.fixlogapi.unit.common.domain.orderAggregate;
 
 import mx.diegopmz.fixlogapi.common.domain.errors.AppError;
+import mx.diegopmz.fixlogapi.common.domain.orderAggregate.Order;
+import mx.diegopmz.fixlogapi.common.domain.orderAggregate.OrderErrors;
+import mx.diegopmz.fixlogapi.common.domain.orderAggregate.OrderStatus;
 import mx.diegopmz.fixlogapi.common.domain.result.Result;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
@@ -197,7 +200,7 @@ class OrderTests {
                 .extracting(AppError::code)
                 .isEqualTo(OrderErrors.invalidFinalCost(finalCost).code());
         }
-        
+
         @Test
         @DisplayName("shouldReturnError_whenDiagnosisIsTooLong")
         void shouldReturnError_whenDiagnosisIsTooLong() {
