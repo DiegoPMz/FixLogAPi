@@ -1,11 +1,14 @@
 package mx.diegopmz.fixlogapi.features.user.shared;
 
+import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import mx.diegopmz.fixlogapi.common.domain.result.Result;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
 
+@AllArgsConstructor(access = AccessLevel.PACKAGE)
 @Getter
 public class User {
     private final UUID id;
