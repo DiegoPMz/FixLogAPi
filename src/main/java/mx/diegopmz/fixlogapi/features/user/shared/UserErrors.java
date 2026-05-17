@@ -52,4 +52,12 @@ public final class UserErrors {
             "user.admin_creation_forbidden"
         );
     }
+
+    public static AppError emailAlreadyInUse() {
+        return AppError.of(
+            "The email address is already linked to another account.",
+            ErrorTypes.CONFLICT,
+            "user.email_already_in_use"
+        );
+    }
 }
