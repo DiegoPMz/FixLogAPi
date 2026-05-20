@@ -22,10 +22,10 @@ public class ClientEntity {
     @Column(length = 250, nullable = false)
     private String name;
 
-    @Column(name = "phone_number", length = 10, unique = true, nullable = false)
+    @Column(name = "phone_number", length = 15, unique = true, nullable = false)
     private String phoneNumber;
 
-    @Column(length = 250, nullable = false, unique = true, updatable = false)
+    @Column(length = 250, unique = true)
     private String email;
 
     @Column(name = "created_at", nullable = false, updatable = false)
