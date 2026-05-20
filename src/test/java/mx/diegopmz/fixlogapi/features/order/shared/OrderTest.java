@@ -1,9 +1,6 @@
-package mx.diegopmz.fixlogapi.unit.common.domain.orderAggregate;
+package mx.diegopmz.fixlogapi.features.order.shared;
 
 import mx.diegopmz.fixlogapi.common.domain.errors.AppError;
-import mx.diegopmz.fixlogapi.common.domain.orderAggregate.Order;
-import mx.diegopmz.fixlogapi.common.domain.orderAggregate.OrderErrors;
-import mx.diegopmz.fixlogapi.common.domain.orderAggregate.OrderStatus;
 import mx.diegopmz.fixlogapi.common.domain.result.Result;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
@@ -16,7 +13,7 @@ import java.util.UUID;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @DisplayName("Order Model Unit Tests")
-class OrderTests {
+class OrderTest {
 
     private final UUID VALID_DEVICE_ID = UUID.randomUUID();
     private final String VALID_DESCRIPTION = "Screen replacement for iPhone 13";

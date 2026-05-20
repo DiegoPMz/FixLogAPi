@@ -1,9 +1,5 @@
-package mx.diegopmz.fixlogapi.unit.features.user.shared;
+package mx.diegopmz.fixlogapi.features.user.shared;
 
-import mx.diegopmz.fixlogapi.features.user.shared.User;
-import mx.diegopmz.fixlogapi.features.user.shared.UserEntity;
-import mx.diegopmz.fixlogapi.features.user.shared.UserMapper;
-import mx.diegopmz.fixlogapi.features.user.shared.UserRoles;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
@@ -13,7 +9,7 @@ import java.util.UUID;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class UserMapperTests {
+public class UserMapperTest {
     @Nested
     @DisplayName("Domain Model to Entity Mapping")
     class ModelToEntityTests {

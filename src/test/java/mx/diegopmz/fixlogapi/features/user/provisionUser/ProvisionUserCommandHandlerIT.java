@@ -1,11 +1,9 @@
-package mx.diegopmz.fixlogapi.integration.features.user.provisionUser;
+package mx.diegopmz.fixlogapi.features.user.provisionUser;
 
 
 import jakarta.persistence.EntityManager;
 import mx.diegopmz.fixlogapi.BaseIntegrationTest;
 import mx.diegopmz.fixlogapi.common.domain.errors.AppError;
-import mx.diegopmz.fixlogapi.features.user.provisionUser.ProvisionUserCommand;
-import mx.diegopmz.fixlogapi.features.user.provisionUser.ProvisionUserCommandHandler;
 import mx.diegopmz.fixlogapi.features.user.shared.JpaUserReadRepository;
 import mx.diegopmz.fixlogapi.features.user.shared.UserErrors;
 import org.junit.jupiter.api.DisplayName;
@@ -87,7 +85,7 @@ class ProvisionUserCommandHandlerIT extends BaseIntegrationTest {
                     "SELECT COUNT(u) FROM UserEntity u WHERE u.email = :email", Long.class)
                 .setParameter("email", VALID_EMAIL)
                 .getSingleResult();
-            
+
             assertThat(userCount).isEqualTo(1L);
         }
     }

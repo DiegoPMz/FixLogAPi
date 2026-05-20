@@ -1,10 +1,7 @@
-package mx.diegopmz.fixlogapi.unit.features.user.shared;
+package mx.diegopmz.fixlogapi.features.user.shared;
 
 import mx.diegopmz.fixlogapi.common.domain.errors.AppError;
 import mx.diegopmz.fixlogapi.common.domain.result.Result;
-import mx.diegopmz.fixlogapi.features.user.shared.User;
-import mx.diegopmz.fixlogapi.features.user.shared.UserErrors;
-import mx.diegopmz.fixlogapi.features.user.shared.UserRoles;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
@@ -16,7 +13,7 @@ import java.time.LocalDateTime;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @DisplayName("User Model Unit Tests")
-class UserTests {
+class UserTest {
 
     private final String VALID_EXTERNAL_ID = "auth0|64f1a2b3c4d5e6f7";
     private final String VALID_NAME = "John";

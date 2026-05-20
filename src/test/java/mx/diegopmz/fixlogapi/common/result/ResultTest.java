@@ -1,4 +1,4 @@
-package mx.diegopmz.fixlogapi.unit.common.result;
+package mx.diegopmz.fixlogapi.common.result;
 
 import mx.diegopmz.fixlogapi.common.domain.errors.AppError;
 import mx.diegopmz.fixlogapi.common.domain.errors.ErrorTypes;
