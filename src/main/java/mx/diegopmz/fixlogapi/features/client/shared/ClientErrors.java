@@ -3,6 +3,8 @@ package mx.diegopmz.fixlogapi.features.client.shared;
 import mx.diegopmz.fixlogapi.common.domain.errors.AppError;
 import mx.diegopmz.fixlogapi.common.domain.errors.ErrorTypes;
 
+import java.util.UUID;
+
 public final class ClientErrors {
 
     private ClientErrors() {
@@ -46,6 +48,22 @@ public final class ClientErrors {
             "The device with serial number '" + serialNumber + "' is already registered to this client.",
             ErrorTypes.VALIDATION,
             "client.device_already_registered"
+        );
+    }
+
+    public static AppError clientNotFound(UUID clientId) {
+        return AppError.of(
+            "The client with ID '" + clientId + "' was not found.",
+            ErrorTypes.NOT_FOUND,
+            "client.not_found"
+        );
+    }
+
+    public static AppError deviceNotOwnedByClient(UUID deviceId, UUID clientId) {
+        return AppError.of(
+            "The device with ID '" + deviceId + "' does not belong to the client with ID '" + clientId + "'.",
+            ErrorTypes.CONFLICT,
+            "client.device_not_owned"
         );
     }
 }

@@ -1,6 +1,7 @@
-package mx.diegopmz.fixlogapi.common.domain.orderAggregate;
+package mx.diegopmz.fixlogapi.features.order.shared;
 
-import jakarta.persistence.Id;
+import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import mx.diegopmz.fixlogapi.common.domain.result.Result;
 
@@ -9,8 +10,8 @@ import java.time.format.DateTimeFormatter;
 import java.util.UUID;
 
 @Getter
+@AllArgsConstructor(access = AccessLevel.PACKAGE)
 public class Order {
-    @Id
     private final UUID id;
     private final String ticketNumber;
     private final UUID deviceId;

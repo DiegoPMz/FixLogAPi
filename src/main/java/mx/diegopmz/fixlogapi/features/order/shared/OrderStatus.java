@@ -1,4 +1,4 @@
-package mx.diegopmz.fixlogapi.common.domain.orderAggregate;
+package mx.diegopmz.fixlogapi.features.order.shared;
 
 public enum OrderStatus {
     RECIBIDO,
