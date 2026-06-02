@@ -2,8 +2,8 @@ package mx.diegopmz.fixlogapi.features.client.shared;
 
 import lombok.AccessLevel;
 import lombok.Getter;
-import mx.diegopmz.fixlogapi.common.domain.result.Created;
-import mx.diegopmz.fixlogapi.common.domain.result.Result;
+import mx.diegopmz.fixlogapi.common.result.Created;
+import mx.diegopmz.fixlogapi.common.result.Result;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

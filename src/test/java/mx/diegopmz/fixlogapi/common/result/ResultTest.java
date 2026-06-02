@@ -1,8 +1,7 @@
 package mx.diegopmz.fixlogapi.common.result;
 
-import mx.diegopmz.fixlogapi.common.domain.errors.AppError;
-import mx.diegopmz.fixlogapi.common.domain.errors.ErrorTypes;
-import mx.diegopmz.fixlogapi.common.domain.result.Result;
+import mx.diegopmz.fixlogapi.common.errors.AppError;
+import mx.diegopmz.fixlogapi.common.errors.ErrorTypes;
 import org.assertj.core.api.InstanceOfAssertFactories;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;

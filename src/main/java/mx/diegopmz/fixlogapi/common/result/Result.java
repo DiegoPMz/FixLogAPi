@@ -1,6 +1,6 @@
-package mx.diegopmz.fixlogapi.common.domain.result;
+package mx.diegopmz.fixlogapi.common.result;
 
-import mx.diegopmz.fixlogapi.common.domain.errors.AppError;
+import mx.diegopmz.fixlogapi.common.errors.AppError;
 
 import java.util.Collections;
 import java.util.List;

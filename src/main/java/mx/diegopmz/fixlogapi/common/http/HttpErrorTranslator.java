@@ -2,7 +2,7 @@ package mx.diegopmz.fixlogapi.common.http;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
-import mx.diegopmz.fixlogapi.common.domain.errors.AppError;
+import mx.diegopmz.fixlogapi.common.errors.AppError;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ProblemDetail;
 import org.springframework.http.ResponseEntity;

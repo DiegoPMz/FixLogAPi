@@ -2,9 +2,9 @@ package mx.diegopmz.fixlogapi.features.client.registerClient;
 
 import jakarta.persistence.EntityManager;
 import mx.diegopmz.fixlogapi.BaseIntegrationTest;
-import mx.diegopmz.fixlogapi.common.domain.errors.AppError;
-import mx.diegopmz.fixlogapi.common.domain.result.Created;
-import mx.diegopmz.fixlogapi.common.domain.result.Result;
+import mx.diegopmz.fixlogapi.common.errors.AppError;
+import mx.diegopmz.fixlogapi.common.result.Created;
+import mx.diegopmz.fixlogapi.common.result.Result;
 import mx.diegopmz.fixlogapi.features.client.shared.Client;
 import mx.diegopmz.fixlogapi.features.client.shared.ClientErrors;
 import mx.diegopmz.fixlogapi.features.client.shared.IClientReadRepository;
@@ -76,7 +76,7 @@ public class RegisterClientCommandHandlerIT extends BaseIntegrationTest {
             assertThat(persistedClient.getEmail()).isEqualTo("jane.doe@example.com");
 
             entityManager.flush();
-            
+
             Long count = entityManager.createQuery(
                     "SELECT COUNT(c) FROM ClientEntity c", Long.class)
                 .setHint("org.hibernate.readOnly", true)

@@ -1,7 +1,7 @@
 package mx.diegopmz.fixlogapi.common.http;
 
-import mx.diegopmz.fixlogapi.common.domain.errors.AppError;
-import mx.diegopmz.fixlogapi.common.domain.errors.ErrorTypes;
+import mx.diegopmz.fixlogapi.common.errors.AppError;
+import mx.diegopmz.fixlogapi.common.errors.ErrorTypes;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;

@@ -1,10 +1,10 @@
 package mx.diegopmz.fixlogapi.features.order.createOrder;
 
 import mx.diegopmz.fixlogapi.BaseIntegrationTest;
-import mx.diegopmz.fixlogapi.common.domain.errors.AppError;
-import mx.diegopmz.fixlogapi.common.domain.errors.ErrorTypes;
-import mx.diegopmz.fixlogapi.common.domain.result.Created;
-import mx.diegopmz.fixlogapi.common.domain.result.Result;
+import mx.diegopmz.fixlogapi.common.errors.AppError;
+import mx.diegopmz.fixlogapi.common.errors.ErrorTypes;
+import mx.diegopmz.fixlogapi.common.result.Created;
+import mx.diegopmz.fixlogapi.common.result.Result;
 import mx.diegopmz.fixlogapi.features.client.shared.Client;
 import mx.diegopmz.fixlogapi.features.client.shared.ClientErrors;
 import mx.diegopmz.fixlogapi.features.client.shared.IClientWriteRepository;

@@ -2,7 +2,7 @@ package mx.diegopmz.fixlogapi.features.order.createOrder;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import mx.diegopmz.fixlogapi.common.domain.errors.AppError;
+import mx.diegopmz.fixlogapi.common.errors.AppError;
 import mx.diegopmz.fixlogapi.common.http.HttpErrorTranslator;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

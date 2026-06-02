@@ -1,7 +1,7 @@
 package mx.diegopmz.fixlogapi.features.order.shared;
 
-import mx.diegopmz.fixlogapi.common.domain.errors.AppError;
-import mx.diegopmz.fixlogapi.common.domain.errors.ErrorTypes;
+import mx.diegopmz.fixlogapi.common.errors.AppError;
+import mx.diegopmz.fixlogapi.common.errors.ErrorTypes;
 
 public final class OrderErrors {
 

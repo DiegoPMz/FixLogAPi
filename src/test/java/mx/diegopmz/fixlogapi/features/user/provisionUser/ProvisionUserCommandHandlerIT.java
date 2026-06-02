@@ -3,7 +3,7 @@ package mx.diegopmz.fixlogapi.features.user.provisionUser;
 
 import jakarta.persistence.EntityManager;
 import mx.diegopmz.fixlogapi.BaseIntegrationTest;
-import mx.diegopmz.fixlogapi.common.domain.errors.AppError;
+import mx.diegopmz.fixlogapi.common.errors.AppError;
 import mx.diegopmz.fixlogapi.features.user.shared.JpaUserReadRepository;
 import mx.diegopmz.fixlogapi.features.user.shared.UserErrors;
 import org.junit.jupiter.api.DisplayName;

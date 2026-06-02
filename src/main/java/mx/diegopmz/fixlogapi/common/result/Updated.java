@@ -1,4 +1,4 @@
-package mx.diegopmz.fixlogapi.common.domain.result;
+package mx.diegopmz.fixlogapi.common.result;
 
 public record Updated(String message) {
     public static Result<Updated> result() {

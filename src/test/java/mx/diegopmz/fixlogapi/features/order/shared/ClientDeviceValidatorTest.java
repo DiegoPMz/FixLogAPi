@@ -1,9 +1,9 @@
 package mx.diegopmz.fixlogapi.features.order.shared;
 
-import mx.diegopmz.fixlogapi.common.domain.errors.AppError;
-import mx.diegopmz.fixlogapi.common.domain.errors.ErrorTypes;
-import mx.diegopmz.fixlogapi.common.domain.result.Result;
-import mx.diegopmz.fixlogapi.common.domain.result.Success;
+import mx.diegopmz.fixlogapi.common.errors.AppError;
+import mx.diegopmz.fixlogapi.common.errors.ErrorTypes;
+import mx.diegopmz.fixlogapi.common.result.Result;
+import mx.diegopmz.fixlogapi.common.result.Success;
 import mx.diegopmz.fixlogapi.features.client.shared.ClientErrors;
 import mx.diegopmz.fixlogapi.features.client.shared.ClientReadModel;
 import mx.diegopmz.fixlogapi.features.client.shared.DeviceReadModel;

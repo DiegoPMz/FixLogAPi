@@ -1,7 +1,7 @@
 package mx.diegopmz.fixlogapi.features.order.shared;
 
-import mx.diegopmz.fixlogapi.common.domain.result.Result;
-import mx.diegopmz.fixlogapi.common.domain.result.Success;
+import mx.diegopmz.fixlogapi.common.result.Result;
+import mx.diegopmz.fixlogapi.common.result.Success;
 
 import java.util.UUID;
 

@@ -1,4 +1,4 @@
-package mx.diegopmz.fixlogapi.common.domain.errors;
+package mx.diegopmz.fixlogapi.common.errors;
 
 public enum ErrorTypes {
     CONFLICT,

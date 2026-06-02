@@ -1,8 +1,8 @@
 package mx.diegopmz.fixlogapi.features.user.provisionUser;
 
 import jakarta.transaction.Transactional;
-import mx.diegopmz.fixlogapi.common.domain.result.Created;
-import mx.diegopmz.fixlogapi.common.domain.result.Result;
+import mx.diegopmz.fixlogapi.common.result.Created;
+import mx.diegopmz.fixlogapi.common.result.Result;
 import mx.diegopmz.fixlogapi.features.user.shared.*;
 import org.springframework.stereotype.Service;
 

@@ -1,8 +1,8 @@
 package mx.diegopmz.fixlogapi.features.order.shared;
 
 import lombok.RequiredArgsConstructor;
-import mx.diegopmz.fixlogapi.common.domain.result.Result;
-import mx.diegopmz.fixlogapi.common.domain.result.Success;
+import mx.diegopmz.fixlogapi.common.result.Result;
+import mx.diegopmz.fixlogapi.common.result.Success;
 import mx.diegopmz.fixlogapi.features.client.shared.ClientErrors;
 import mx.diegopmz.fixlogapi.features.client.shared.ClientReadModel;
 import mx.diegopmz.fixlogapi.features.client.shared.IClientReadRepository;

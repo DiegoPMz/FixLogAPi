@@ -1,6 +1,6 @@
 package mx.diegopmz.fixlogapi.common.http;
 
-import mx.diegopmz.fixlogapi.common.domain.errors.ErrorTypes;
+import mx.diegopmz.fixlogapi.common.errors.ErrorTypes;
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
 import org.springframework.http.HttpStatus;

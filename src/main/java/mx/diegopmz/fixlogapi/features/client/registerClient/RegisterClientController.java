@@ -1,10 +1,10 @@
 package mx.diegopmz.fixlogapi.features.client.registerClient;
 
 import jakarta.validation.Valid;
-import mx.diegopmz.fixlogapi.common.domain.errors.AppError;
-import mx.diegopmz.fixlogapi.common.domain.result.Created;
-import mx.diegopmz.fixlogapi.common.domain.result.Result;
+import mx.diegopmz.fixlogapi.common.errors.AppError;
 import mx.diegopmz.fixlogapi.common.http.HttpErrorTranslator;
+import mx.diegopmz.fixlogapi.common.result.Created;
+import mx.diegopmz.fixlogapi.common.result.Result;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

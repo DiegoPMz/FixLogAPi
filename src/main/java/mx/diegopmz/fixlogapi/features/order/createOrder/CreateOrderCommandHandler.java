@@ -2,9 +2,9 @@ package mx.diegopmz.fixlogapi.features.order.createOrder;
 
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
-import mx.diegopmz.fixlogapi.common.domain.result.Created;
-import mx.diegopmz.fixlogapi.common.domain.result.Result;
-import mx.diegopmz.fixlogapi.common.domain.result.Success;
+import mx.diegopmz.fixlogapi.common.result.Created;
+import mx.diegopmz.fixlogapi.common.result.Result;
+import mx.diegopmz.fixlogapi.common.result.Success;
 import mx.diegopmz.fixlogapi.features.order.shared.IClientDeviceValidator;
 import mx.diegopmz.fixlogapi.features.order.shared.IOrderWriteRepository;
 import mx.diegopmz.fixlogapi.features.order.shared.Order;

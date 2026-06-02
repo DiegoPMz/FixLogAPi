@@ -1,8 +1,8 @@
 package mx.diegopmz.fixlogapi.features.client.registerClient;
 
 import jakarta.transaction.Transactional;
-import mx.diegopmz.fixlogapi.common.domain.result.Created;
-import mx.diegopmz.fixlogapi.common.domain.result.Result;
+import mx.diegopmz.fixlogapi.common.result.Created;
+import mx.diegopmz.fixlogapi.common.result.Result;
 import mx.diegopmz.fixlogapi.features.client.shared.Client;
 import mx.diegopmz.fixlogapi.features.client.shared.IClientReadRepository;
 import mx.diegopmz.fixlogapi.features.client.shared.IClientWriteRepository;

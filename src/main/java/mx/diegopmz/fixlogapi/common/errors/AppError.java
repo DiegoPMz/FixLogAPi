@@ -1,4 +1,4 @@
-package mx.diegopmz.fixlogapi.common.domain.errors;
+package mx.diegopmz.fixlogapi.common.errors;
 
 import java.util.Collections;
 import java.util.HashMap;
