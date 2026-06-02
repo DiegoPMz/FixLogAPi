@@ -1,4 +1,4 @@
-package mx.diegopmz.fixlogapi.features.client.clientDeviceValidator;
+package mx.diegopmz.fixlogapi.features.order.shared;
 
 import lombok.RequiredArgsConstructor;
 import mx.diegopmz.fixlogapi.common.domain.result.Result;
@@ -6,7 +6,6 @@ import mx.diegopmz.fixlogapi.common.domain.result.Success;
 import mx.diegopmz.fixlogapi.features.client.shared.ClientErrors;
 import mx.diegopmz.fixlogapi.features.client.shared.ClientReadModel;
 import mx.diegopmz.fixlogapi.features.client.shared.IClientReadRepository;
-import mx.diegopmz.fixlogapi.features.order.shared.IClientDeviceValidator;
 import org.springframework.stereotype.Component;
 
 import java.util.Optional;
